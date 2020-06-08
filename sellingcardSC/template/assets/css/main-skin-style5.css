@@ -10,6 +10,21 @@ MIPTO - Agregar fuentes
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Dancing';
+  src: url('../fonts/Dancing Script.woff')
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Antro_vectra';
+  src: url('C:\sellingcardsvc\sellingcardSC\template\assets\fonts');
+  src: url('../fonts/Antro_Vectra.woff') format('antro_vectra'), url('../fonts/Antro_Vectra_Bolder.eot') format('woff')
+  font-weight: normal;
+  font-style: normal;
+}
 /*=== end Fonts ===*/
 /*=== General ===*/
 html {
@@ -104,7 +119,7 @@ MIPTO - Edicion de TITULO de sidebar
   padding: 0;
   opacity: 0.55;
   filter: alpha(opacity=55);
-  font: normal normal 2.125em/1.33em Novecento_wide_bold;
+  font: normal normal 2.125em/1.33em Antro_vectra;
   text-transform: uppercase;
 }
 @media (max-width: 910px) {
