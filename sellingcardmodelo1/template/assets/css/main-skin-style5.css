@@ -1,4 +1,7 @@
 @import url('http://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900');
+/*********** 
+MIPTO - Agregar fuentes
+ ***********/
 /*=== Fonts ===*/
 @font-face {
   font-family: 'Novecento_wide_bold';
@@ -12,6 +15,9 @@
 html {
   height: 100%;
 }
+/*********** 
+MIPTO - Edicion de FONDO de tarjeta
+ ***********/
 body {
   height: 100%;
   background: #3c3c3c;
@@ -81,12 +87,18 @@ a:focus {
 }
 /*=== end Footer ===*/
 /*=== Sidebar ===*/
+/*********** 
+MIPTO - Edicion de FONDO de sidebar
+ ***********/
 .sidebar {
   height: 100%;
   background: #555c70;
   color: #ffffff;
   padding-top: 75px;
 }
+/*********** 
+MIPTO - Edicion de TITULO de sidebar
+ ***********/
 .sidebar__site-name {
   margin: 0;
   padding: 0;
@@ -116,6 +128,9 @@ body {
   height: 100%;
   padding-top: 220px;
 }
+/*********** 
+MIPTO - Edicion de FONDO de menu
+ ***********/
 .layout-header {
   position: fixed;
   background-color: red;
@@ -241,6 +256,9 @@ body {
 .main-nav__item--active .main-nav__item-icon {
   color: #ffffff;
 }
+/*********** 
+MIPTO - Edicion de FONDO de iconos de menu
+ ***********/
 .main-nav__item:hover .main-nav__item-content {
   color: #aeb2bd;
 }
@@ -251,6 +269,9 @@ body {
   -o-transition: all 0.4s ease-in-out, background-color 1ms;
   transition: all 0.4s ease-in-out, background-color 1ms;
 }
+/*********** 
+MIPTO - Edicion de COLOR de iconos de menu
+ ***********/
 .main-nav__item--active .main-nav__item-icon,
 .main-nav__item--active:hover .main-nav__item-icon {
   color: #00d4d4;
@@ -943,6 +964,9 @@ textarea {
 }
 /*=== end Skill ===*/
 /*=== Social icons ===*/
+/*********** 
+MIPTO - Edicion de REDES SOCIALES
+ ***********/
 .social-icons {
   margin: 0;
   padding: 0;
@@ -1168,6 +1192,9 @@ textarea {
 }
 /*=== end Timeline ===*/
 /*=== Widget ===*/
+/*********** 
+MIPTO - Edicion de Texto de sidebar
+ ***********/
 .widget {
   margin-top: 20px;
 }
@@ -1226,6 +1253,9 @@ textarea {
 }
 /*=== end Contact ===*/
 /*=== Home ===*/
+/*********** 
+MIPTO - Edicion de FONDO de cuerpo principical de la tarjeta
+ ***********/
 .page-home,
 .layout-body--home .layout {
   background: #00bdbd;
@@ -1247,11 +1277,17 @@ textarea {
     margin-top: 40px;
   }
 }
+/*********** 
+MIPTO - Edicion de FUENTE de texto de cuerpo principical de la tarjeta
+ ***********/
 .page-home__text p {
   margin-top: 15px;
   margin-bottom: 0;
   color: #ffffff;
 }
+/*********** 
+MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
+ ***********/
 .page-home__page-title {
   margin: 0;
   padding-bottom: 11px;
