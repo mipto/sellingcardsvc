@@ -78,7 +78,7 @@ font-family: 'Cabin', sans-serif; */
 
 body {
 	font-family: 'Cabin', sans-serif;
-	font-size:14px;
+	font-size:20px;
 	color:#777777;
 	line-height:1.7em;
 	font-weight:400;
@@ -5581,7 +5581,7 @@ img{
 	padding:40px 30px 50px;
 	border-radius:9px;
 	overflow:hidden;
-	border:1px solid #105bc1;
+	border:1px solid #EA1676;
 	background-color:#ffffff;
 }
 
@@ -5592,12 +5592,12 @@ img{
 	top:0px;
 	right:0px;
 	height:10px;
-	background-image: -ms-linear-gradient(left, #683FE8 0%, #0229a3 100%);
-	background-image: -moz-linear-gradient(left, #683FE8 0%, #0229a3 100%);
-	background-image: -o-linear-gradient(left, #683FE8 0%, #0229a3 100%);
-	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #683FE8), color-stop(100, #0229a3));
-	background-image: -webkit-linear-gradient(left, #683FE8 0%, #0229a3 100%);
-	background-image: linear-gradient(to right, #683FE8 0%, #0229a3 100%);
+	background-image: -ms-linear-gradient(left, #EA1676 0%, #EA1676  100%);
+	background-image: -moz-linear-gradient(left, #EA1676 0%, #EA1676  100%);
+	background-image: -o-linear-gradient(left, #EA1676 0%, #EA1676  100%);
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #683FE8), color-stop(100, #EA1676 ));
+	background-image: -webkit-linear-gradient(left, #EA1676 0%, #EA1676  100%);
+	background-image: linear-gradient(to right, #EA1676 0%, #EA1676 100%);
 }
 
 .price-block .inner-box .title{
@@ -5663,12 +5663,12 @@ img{
 	z-index:1;
 	border-radius:50%;
 	display:inline-block;
-	background-image: -ms-linear-gradient(bottom, #683FE8 0%, #0229A3 100%);
-	background-image: -moz-linear-gradient(bottom, #683FE8 0%, #0229A3 100%);
-	background-image: -o-linear-gradient(bottom, #683FE8 0%, #0229A3 100%);
-	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #683FE8), color-stop(100, #0229A3));
-	background-image: -webkit-linear-gradient(bottom, #683FE8 0%, #0229A3 100%);
-	background-image: linear-gradient(to top, #683FE8 0%, #0229A3 100%);
+	background-image: -ms-linear-gradient(bottom, #EA1676 0%, #99EDC3  100%);
+	background-image: -moz-linear-gradient(bottom, #EA1676 0%, #99EDC3  100%);
+	background-image: -o-linear-gradient(bottom, #EA1676 0%, #99EDC3  100%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #EA1676), color-stop(100, #99EDC3 ));
+	background-image: -webkit-linear-gradient(bottom, #EA1676 0%, #99EDC3  100%);
+	background-image: linear-gradient(to top, #EA1676 0%, #99EDC3  100%);
 }
 
 .price-block .inner-box .price-box .box-inner .price{
@@ -5681,7 +5681,7 @@ img{
 	border-radius:50px;
 	line-height:102px;
 	display:inline-block;
-	background-color:#105bc1;
+	background-color:#EA1676;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -5694,10 +5694,10 @@ img{
 	bottom:-10px;
 	border-radius:50%;
 	transform:rotate(-45deg);
-	border-right:3px solid #0028a2;
+	border-right:3px solid #EA1676;
 	border-top:3px solid #cccccc;
-	border-bottom:3px solid #0028a2;
-	border-left:3px solid #0028a2;
+	border-bottom:3px solid #EA1676;
+	border-left:3px solid #EA1676;
 	-webkit-transition:all 600ms ease;
 	-moz-transition:all 600ms ease;
 	-ms-transition:all 600ms ease;
@@ -5729,29 +5729,29 @@ img{
 }
 
 .price-block:nth-child(2) .inner-box{
-	border-color:#663fe7;
-	background-image: -ms-linear-gradient(left, #673FE7 0%, #0228a3 100%);
-	background-image: -moz-linear-gradient(left, #673FE7 0%, #0228a3 100%);
-	background-image: -o-linear-gradient(left, #673FE7 0%, #0228a3 100%);
-	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #673FE7), color-stop(100, #0228a3));
-	background-image: -webkit-linear-gradient(left, #673FE7 0%, #0228a3 100%);
-	background-image: linear-gradient(to right, #673FE7 0%, #0228a3 100%);
+	border-color:#EA1676;
+	background-image: -ms-linear-gradient(left, #EA1676 0%, #99EDC3 100%);
+	background-image: -moz-linear-gradient(left, #EA1676 0%, #99EDC3 100%);
+	background-image: -o-linear-gradient(left, #EA1676 0%, #99EDC3 100%);
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #EA1676), color-stop(100, #99EDC3));
+	background-image: -webkit-linear-gradient(left, #EA1676 0%, #E7A6 100%);
+	background-image: linear-gradient(to right, #EA1676 0%, #E7A6 100%);
 }
 
 .price-block:nth-child(2) .inner-box .title{
 	background-image:none;
-	background:#ffffff;
-	color:#6b40ea;
+	background:#99EDC3;
+	color:#ffffff;
 }
 
 .price-block:nth-child(2) .inner-box .price-box .box-inner .price{
-	background-color:#fe4c1c;
+	background-color:#99EDC3;
 }
 
 .price-block:nth-child(2) .inner-box .price-box .box-inner .price:before{
-	border-left-color:#fe4c1c;
-	border-right-color:#fe4c1c;
-	border-bottom-color:#fe4c1c;
+	border-left-color:#99EDC3;
+	border-right-color:#99EDC3;
+	border-bottom-color:#99EDC3;
 }
 
 .price-block:nth-child(2) .inner-box .price-list li{
@@ -5770,7 +5770,7 @@ img{
 
 .price-block:nth-child(2) .inner-box .btn-style-three{
 	background-image:none;
-	color:#0028a2;
+	color:#EA1676;
 	background-color:#ffffff;
 }
 
@@ -5779,25 +5779,25 @@ img{
 }
 
 .price-block:nth-child(3) .inner-box{
-	border-color:#FE4C1B;
+	border-color:#EA1676;
 }
 
 .price-block:nth-child(3) .inner-box:before{
-	background-image: -ms-linear-gradient(left, #FE4C1B 0%, #ce2c01 100%);
-	background-image: -moz-linear-gradient(left, #FE4C1B 0%, #ce2c01 100%);
-	background-image: -o-linear-gradient(left, #FE4C1B 0%, #ce2c01 100%);
-	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #FE4C1B), color-stop(100, #ce2c01));
-	background-image: -webkit-linear-gradient(left, #FE4C1B 0%, #ce2c01 100%);
-	background-image: linear-gradient(to right, #FE4C1B 0%, #ce2c01 100%);
+	background-image: -ms-linear-gradient(left, #EA1676 0%, #EA1676  100%);
+	background-image: -moz-linear-gradient(left, #EA1676 0%, #EA1676  100%);
+	background-image: -o-linear-gradient(left, #EA1676 0%, #EA1676  100%);
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #EA1676), color-stop(100, #EA1676 ));
+	background-image: -webkit-linear-gradient(left, #EA1676 0%, #EA1676  100%);
+	background-image: linear-gradient(to right, #EA1676 0%, #EA1676  100%);
 }
 
 .price-block:nth-child(3) .inner-box .title{
-	background-image: -ms-linear-gradient(left, #673FE7 0%, #0228a3 100%);
-	background-image: -moz-linear-gradient(left, #673FE7 0%, #0228a3 100%);
-	background-image: -o-linear-gradient(left, #673FE7 0%, #0228a3 100%);
-	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #673FE7), color-stop(100, #0228a3));
-	background-image: -webkit-linear-gradient(left, #673FE7 0%, #0228a3 100%);
-	background-image: linear-gradient(to right, #673FE7 0%, #0228a3 100%);
+	background-image: -ms-linear-gradient(left, #EA167  0%, #EA167  100%);
+	background-image: -moz-linear-gradient(left, #EA167  0%, #EA167  100%);
+	background-image: -o-linear-gradient(left, #EA167  0%, #EA167  100%);
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #EA167 ), color-stop(100, #EA167 ));
+	background-image: -webkit-linear-gradient(left, #EA167  0%, #EA167  100%);
+	background-image: linear-gradient(to right, #EA167  0%, #EA167  100%);
 }
 
 .pricing-section .price-block:nth-child(2){
@@ -5898,12 +5898,12 @@ img{
 	top:0px;
 	width:2px;
 	height:100%;
-	background-image: -ms-linear-gradient(top, #0128A2 0%, #693FE9 100%);
-	background-image: -moz-linear-gradient(top, #0128A2 0%, #693FE9 100%);
-	background-image: -o-linear-gradient(top, #0128A2 0%, #693FE9 100%);
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0128A2), color-stop(100, #693FE9));
-	background-image: -webkit-linear-gradient(top, #0128A2 0%, #693FE9 100%);
-	background-image: linear-gradient(to bottom, #0128A2 0%, #693FE9 100%);
+	background-image: -ms-linear-gradient(top, #EA1676 0%, #EA1676 100%);
+	background-image: -moz-linear-gradient(top, #EA1676 0%, #EA1676 100%);
+	background-image: -o-linear-gradient(top, #EA1676 0%, #EA1676 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #EA1676), color-stop(100, #EA1676));
+	background-image: -webkit-linear-gradient(top, #EA1676 0%, #EA1676 100%);
+	background-image: linear-gradient(to bottom, #EA1676 0%, #EA1676 100%);
 }
 
 .news-block .inner-box .lower-content .content:after{
@@ -5914,12 +5914,12 @@ img{
 	width:15px;
 	height:15px;
 	border-radius:50px;
-	background-image: -ms-linear-gradient(top, #0128A2 0%, #693FE9 100%);
-	background-image: -moz-linear-gradient(top, #0128A2 0%, #693FE9 100%);
-	background-image: -o-linear-gradient(top, #0128A2 0%, #693FE9 100%);
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0128A2), color-stop(100, #693FE9));
-	background-image: -webkit-linear-gradient(top, #0128A2 0%, #693FE9 100%);
-	background-image: linear-gradient(to bottom, #0128A2 0%, #693FE9 100%);
+	background-image: -ms-linear-gradient(top, #EA1676 0%, #EA1676 100%);
+	background-image: -moz-linear-gradient(top, #EA1676 0%, #EA1676 100%);
+	background-image: -o-linear-gradient(top, #EA1676 0%, #EA1676 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #EA1676), color-stop(100, #EA1676));
+	background-image: -webkit-linear-gradient(top, #EA1676 0%, #EA1676 100%);
+	background-image: linear-gradient(to bottom, #EA1676 0%, #EA1676 100%);
 }
 
 .news-block .inner-box .lower-content .content .post-date span{
@@ -5933,12 +5933,12 @@ img{
 	color:#ffffff;
 	padding-top:8px;
 	font-family: 'Montserrat', sans-serif;
-	background-image: -ms-linear-gradient(top, #0128A2 0%, #693FE9 100%);
-	background-image: -moz-linear-gradient(top, #0128A2 0%, #693FE9 100%);
-	background-image: -o-linear-gradient(top, #0128A2 0%, #693FE9 100%);
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0128A2), color-stop(100, #693FE9));
-	background-image: -webkit-linear-gradient(top, #0128A2 0%, #693FE9 100%);
-	background-image: linear-gradient(to bottom, #0128A2 0%, #693FE9 100%);
+	background-image: -ms-linear-gradient(top, #EA1676 0%, #99EDC3  100%);
+	background-image: -moz-linear-gradient(top, #EA1676 0%, #99EDC3  100%);
+	background-image: -o-linear-gradient(top, #EA1676 0%, #99EDC3  100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #EA1676), color-stop(100, #99EDC3 ));
+	background-image: -webkit-linear-gradient(top, #EA1676 0%, #99EDC3  100%);
+	background-image: linear-gradient(to bottom, #EA1676 0%, #99EDC3  100%);
 }
 
 .news-block .inner-box .lower-content .content .post-date span i{

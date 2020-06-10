@@ -90,7 +90,8 @@ a:focus {
   margin: 0;
   opacity: 0.55;
   filter: alpha(opacity=55);
-  color: #ffffff;
+  color: #000000
+  ;
 }
 .footer--bottom {
   display: none;
@@ -2103,8 +2104,8 @@ MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
     padding: 40px 30px 50px;
     border-radius: 9px;
     overflow: hidden;
-    border: 1px solid #105bc1;
-    background-color: #ffffff;
+    border: 1px solid #EA1676 ;
+    background-color: #99EDC3
 }
 
 .price-block .inner-box .title {
@@ -2117,12 +2118,12 @@ MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
     margin-left: -32px;
     padding: 6px 30px 6px 30px;
     border-radius: 0px 50px 50px 0px;
-    background-image: -ms-linear-gradient(left, #FE4C1B 0%, #ce2c01 100%);
-    background-image: -moz-linear-gradient(left, #FE4C1B 0%, #ce2c01 100%);
-    background-image: -o-linear-gradient(left, #FE4C1B 0%, #ce2c01 100%);
-    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #FE4C1B), color-stop(100, #ce2c01));
-    background-image: -webkit-linear-gradient(left, #FE4C1B 0%, #ce2c01 100%);
-    background-image: linear-gradient(to right, #FE4C1B 0%, #ce2c01 100%);
+    background-image: -ms-linear-gradient(left, #EA1676 0%, #EA1676 100%);
+    background-image: -moz-linear-gradient(left, #EA1676 0%, #EA1676 100%);
+    background-image: -o-linear-gradient(left, #EA1676 0%, #EA1676 100%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #EA1676), color-stop(100, #EA1676));
+    background-image: -webkit-linear-gradient(left, #EA1676 0%, #EA1676 100%);
+    background-image: linear-gradient(to right, #EA1676 0%, #EA1676 100%);
 }
 
 .price-block .inner-box .price-box {
@@ -2136,7 +2137,7 @@ MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
     padding: 40px 30px 50px;
     border-radius: 9px;
     overflow: hidden;
-    border: 1px solid #105bc1;
+    border: 1px solid #EA1676 ;
     background-color: #ffffff;
 }
 
@@ -2158,12 +2159,13 @@ MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
     z-index: 1;
     border-radius: 50%;
     display: inline-block;
-    background-image: -ms-linear-gradient(bottom, #683FE8 0%, #0229A3 100%);
-    background-image: -moz-linear-gradient(bottom, #683FE8 0%, #0229A3 100%);
-    background-image: -o-linear-gradient(bottom, #683FE8 0%, #0229A3 100%);
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #683FE8), color-stop(100, #0229A3));
-    background-image: -webkit-linear-gradient(bottom, #683FE8 0%, #0229A3 100%);
-    background-image: linear-gradient(to top, #683FE8 0%, #0229A3 100%);
+    background-image: -ms-linear-gradient(bottom, #EA1676  0%, #99EDC3 100%);
+    background-image: -moz-linear-gradient(bottom, #EA1676  0%, #99EDC3 100%);
+    background-image: -o-linear-gradient(bottom, #EA1676 0%, #    background-image: -moz-linear-gradient(bottom, #EA1676  0%, #99EDC3 100%);
+    100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #EA1676), color-stop(100, #99EDC3 ));
+    background-image: -webkit-linear-gradient(bottom, #EA1676 0%, #99EDC3  100%);
+    background-image: linear-gradient(to top, #EA1676 0%, #99EDC3  100%);
 }
 
 .price-block .inner-box .price-box .box-inner .circles-box .circle-two {
@@ -2175,12 +2177,12 @@ MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
     z-index: 1;
     border-radius: 50%;
     display: inline-block;
-    background-image: -ms-linear-gradient(bottom, #683FE8 0%, #0229A3 100%);
-    background-image: -moz-linear-gradient(bottom, #683FE8 0%, #0229A3 100%);
-    background-image: -o-linear-gradient(bottom, #683FE8 0%, #0229A3 100%);
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #683FE8), color-stop(100, #0229A3));
-    background-image: -webkit-linear-gradient(bottom, #683FE8 0%, #0229A3 100%);
-    background-image: linear-gradient(to top, #683FE8 0%, #0229A3 100%);
+    background-image: -ms-linear-gradient(bottom, #EA1676 0%, #99EDC3  100%);
+    background-image: -moz-linear-gradient(bottom, #EA1676 0%, #99EDC3  100%);
+    background-image: -o-linear-gradient(bottom, #EA1676 0%, #99EDC3  100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #EA1676), color-stop(100, #99EDC3 ));
+    background-image: -webkit-linear-gradient(bottom, #EA1676 0%, #99EDC3  100%);
+    background-image: linear-gradient(to top, #EA1676 0%, #99EDC3  100%);
 }
 
 .price-block .inner-box .price-box .box-inner .price {
@@ -2188,12 +2190,12 @@ MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
     font-size: 44px;
     font-weight: 600;
     width: 100px;
-    color: #ffffff;
+    color: #ffffff;s
     height: 100px;
     border-radius: 50px;
     line-height: 102px;
     display: inline-block;
-    background-color: #105bc1;
+    background-color: #EA1676;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -2205,7 +2207,7 @@ MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
 
 .price-block .inner-box .price-list li {
     position: relative;
-    color: #777777;
+    color: #000;
     font-size: 16px;
     margin-bottom: 12px;
     font-family: 'Cabin', sans-serif;
@@ -2213,12 +2215,12 @@ MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
 
 .price-block:nth-child(2) .inner-box .price-box .box-inner .circles-box .circle-two,
 .price-block:nth-child(2) .inner-box .price-box .box-inner .circles-box .circle-one{
-	background-image: -ms-linear-gradient(top, #CF2D01 0%, #FD4A1C 100%);
-	background-image: -moz-linear-gradient(top, #CF2D01 0%, #FD4A1C 100%);
-	background-image: -o-linear-gradient(top, #CF2D01 0%, #FD4A1C 100%);
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #CF2D01), color-stop(100, #FD4A1C));
-	background-image: -webkit-linear-gradient(top, #CF2D01 0%, #FD4A1C 100%);
-	background-image: linear-gradient(to bottom, #CF2D01 0%, #FD4A1C 100%);
+	background-image: -ms-linear-gradient(top, #EA1676 0%, #99EDC3 100%);
+	background-image: -moz-linear-gradient(top, #EA1676 0%, #99EDC3 100%);
+	background-image: -o-linear-gradient(top, #EA1676 0%, #99EDC3 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #CF2D01), color-stop(100, #99EDC3));
+	background-image: -webkit-linear-gradient(top, #EA1676 0%, #99EDC3 100%);
+	background-image: linear-gradient(to bottom, #EA1676 0%, #99EDC3 100%);
 }
 
 .price-block .inner-box .price-box .box-inner .circles-box{
