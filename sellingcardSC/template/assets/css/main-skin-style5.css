@@ -36,6 +36,13 @@ MIPTO - Agregar fuentes
   font-weight: normal;
   font-style: normal;
 } 
+
+@font-face {
+  font-family: 'Firma';
+  src: url('../fonts/YouthTouchDemoRegular-4VwY.ttf');
+  font-weight: normal;
+  font-style: normal;	
+}
 /*=== end Fonts ===*/
 /*=== General ===*/
 html {
@@ -52,11 +59,19 @@ body {
   font-family: Sellingfont;
   color: #ffffff;
 }
+.firma {
+  color:#EA1676;
+  margin-top: 55px;
+  text-align: center;
+  font-size: 100px;
+  font-family: Firma;
+}
 @media (max-width: 1132px), (max-height: 800px) {
   body {
     font-size: 16px;
   }
 }
+
 a {
   color: #000;
   border-bottom: 1px dotted #e6e5e5;
@@ -412,7 +427,7 @@ MIPTO - Edicion de COLOR de iconos de menu
 }
 .mobile-menu__toggle__icon {
   display: block;
-  width: 22px;S
+  width: 22px;
   height: 27px;
   margin-top: -13.5px;
   margin-left: -11px;
@@ -1288,7 +1303,7 @@ MIPTO - Edicion de FONDO de cuerpo principical de la tarjeta
  ***********/
 .page-home,
 .layout-body--home .layout {
-  background: #99EDC3;
+  background-image: url('../../uploads/home/fondominthome.jpg');
 }
 @media (min-width: 910px) {
   .layout-body--home .mCSB_scrollTools_vertical {
@@ -1306,6 +1321,10 @@ MIPTO - Edicion de FONDO de cuerpo principical de la tarjeta
   .page-home__thumbnail-wrap {
     margin-top: 40px;
   }
+  .page-home__thumbnail {
+    margin-top: 40px;
+    width: 56%;
+  }
 }
 /*********** 
 MIPTO - Edicion de FUENTE de texto de cuerpo principical de la tarjeta
@@ -1313,16 +1332,26 @@ MIPTO - Edicion de FUENTE de texto de cuerpo principical de la tarjeta
 .page-home__text p {
   margin-top: 15px;
   margin-bottom: 0;
-  color: #ffffff;
+  color: #969696;
   font-size: 28px;
 }
+
+.page-home__text_ul {
+  margin-top: 15px;
+  margin-bottom: 0;
+  color: #969696;
+  font-size: 30px;
+  list-style: none;
+  line-height: 1.5;
+}
+
 /*********** 
 MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
  ***********/
 .page-home__page-title {
   margin: 0;
   padding-bottom: 15px;
-  color: #ffffff;
+  color: #969696;
   font: 40px SimianText;
   text-transform: uppercase;
 }
