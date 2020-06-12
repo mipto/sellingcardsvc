@@ -503,6 +503,17 @@ Template.menu = {
 				if (newDomActiveItem.length) {
 					// searching for item with the same href attribute in our main menu
 					// and marking it as active item
+
+					if(newDomActiveItem.attr('href') == "resume.html"){
+						console.log("RESUME", newDomActiveItem.attr('href'));
+						document.getElementById("layoutside").style.display = "none";
+						document.getElementById("full_layout").style.width = "100%";
+					} else {
+						document.getElementById("layoutside").style.display = "block";
+						document.getElementById("full_layout").removeAttribute("style");
+						console.log("OTHER", newDomActiveItem.attr('href'));
+					}					
+
 					var newActiveItem = this.getMenuItems(true)
 						.filter('[href="'+newDomActiveItem.attr('href')+'"]');
 					if (newActiveItem.length > 0) {

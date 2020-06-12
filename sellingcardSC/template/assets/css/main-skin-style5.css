@@ -24,6 +24,18 @@ MIPTO - Agregar fuentes
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Sellingfont';
+  src: url('../fonts/SimianText-Orangutan.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SimianText-Gorilla';
+  src: url('../fonts/SimianText-Gorilla.otf');
+  font-weight: normal;
+  font-style: normal;
+} 
 /*=== end Fonts ===*/
 /*=== General ===*/
 html {
@@ -37,7 +49,7 @@ body {
   background: #3c3c3c;
   background-image: url('../images/FONDOWEB-01.png');
   background-size: cover;
-  font-family: Kanit;
+  font-family: Sellingfont;
   color: #ffffff;
 }
 @media (max-width: 1132px), (max-height: 800px) {
@@ -96,7 +108,7 @@ a:focus {
 .footer--bottom {
   display: none;
   padding: 30px;
-  background: #555c70;
+  background: #E6E5E5;
   text-align: center;
 }
 .footer--bottom p {
@@ -119,9 +131,9 @@ MIPTO - Edicion de TITULO de sidebar
 .sidebar__site-name {
   margin: 0;
   padding: 0;
-  opacity: 0.55;
+  opacity: 0.75;
   filter: alpha(opacity=55);
-  font: normal normal 2.125em/1.33em Dancing;
+  font: normal normal 2.125em/1.33em Sellingfont;
   text-transform: uppercase;
 }
 @media (max-width: 910px) {
@@ -170,16 +182,16 @@ MIPTO - Edicion de FONDO de menu
   float: right;
   overflow: hidden;
   position: relative;
-  background-color: #ffffff;
+  background-color:#ffff;
 }
 .layout-title {
   position: fixed;
   margin: 0;
   z-index: 1;
   overflow: hidden;
-  background: #00bdbd;
+  background: #99EDC3;
   color: #ffffff;
-  font: normal normal 1.778em Novecento_wide_bold;
+  font: normal normal 1.778em SimianText;
   text-transform: uppercase;
   line-height: 75px;
 }
@@ -391,7 +403,7 @@ MIPTO - Edicion de COLOR de iconos de menu
   width: 60px;
   height: 60px;
   float: right;
-  background-color: #00d4d4;
+  background-color: #99EDC3;
   transition: all 500ms ease-in;
   position: relative;
   z-index: 21;
@@ -399,7 +411,7 @@ MIPTO - Edicion de COLOR de iconos de menu
 }
 .mobile-menu__toggle__icon {
   display: block;
-  width: 22px;
+  width: 22px;S
   height: 27px;
   margin-top: -13.5px;
   margin-left: -11px;
@@ -1242,7 +1254,7 @@ MIPTO - Edicion de Texto de sidebar
 /*=== Contact ===*/
 .google-map--contact {
   height: 276px;
-  color: #00d4d4;
+  color: #EA1676;
 }
 .google-map--contact a {
   border-bottom: none;
@@ -1307,7 +1319,7 @@ MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
  ***********/
 .page-home__page-title {
   margin: 0;
-  padding-bottom: 11px;
+  padding-bottom: 15px;
   color: #ffffff;
   font: 2.125em SimianText;
   text-transform: uppercase;
@@ -2210,7 +2222,7 @@ MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
     color: #000;
     font-size: 16px;
     margin-bottom: 12px;
-    font-family: 'Cabin', sans-serif;
+    font-family: Kanit;
 }
 
 .price-block:nth-child(2) .inner-box .price-box .box-inner .circles-box .circle-two,
