@@ -186,10 +186,10 @@ var Template = {
 		if (!mapElement) return;
 
 		var mapCfg = this.googleMapConfig || {},
-			markerPositionCfg = jQuery.extend({lat:-34.397,lng:150.644}, mapCfg.markerLocation || {}),
-			markerPosition = new google.maps.LatLng(markerPositionCfg.lat, markerPositionCfg.lng),
+			markerPositionCfg = jQuery.extend({lat:10.4881935,lng:-66.8285411}, mapCfg.markerLocation || {}),
+			markerPosition = new google.maps.LatLng(10.4881935, -66.8285411),
 			map = new google.maps.Map(mapElement, {
-				zoom: mapCfg.zoom ? mapCfg.zoom : 8,
+				zoom: 9,
 				center: markerPosition,
 				mapTypeId: google.maps.MapTypeId.ROADMAP,
 				scrollwheel: false

@@ -104,6 +104,7 @@ a:focus {
   filter: alpha(opacity=55);
   color: #000000
   ;
+  font-size: 14px !important;
 }
 .footer--bottom {
   display: none;
@@ -191,7 +192,7 @@ MIPTO - Edicion de FONDO de menu
   overflow: hidden;
   background: #99EDC3;
   color: #ffffff;
-  font: normal normal 1.778em SimianText;
+  font: normal normal 40px SimianText;
   text-transform: uppercase;
   line-height: 75px;
 }
@@ -1313,6 +1314,7 @@ MIPTO - Edicion de FUENTE de texto de cuerpo principical de la tarjeta
   margin-top: 15px;
   margin-bottom: 0;
   color: #ffffff;
+  font-size: 28px;
 }
 /*********** 
 MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
@@ -1321,7 +1323,7 @@ MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
   margin: 0;
   padding-bottom: 15px;
   color: #ffffff;
-  font: 2.125em SimianText;
+  font: 40px SimianText;
   text-transform: uppercase;
 }
 .page-home__sign {
@@ -2260,4 +2262,8 @@ MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
     -o-animation-duration: 15s; 
     -o-animation-iteration-count: infinite;
     -o-animation-timing-function: linear;
+}
+
+.price-block .inner-box .price-list li {
+    font-size: 22px;	
 }
