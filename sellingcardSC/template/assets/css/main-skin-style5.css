@@ -1325,12 +1325,16 @@ MIPTO - Edicion de FONDO de cuerpo principical de la tarjeta
     margin-top: 40px;
     width: 56%;
   }
+
+  .layout-title__subtitle {
+    float: left;
+  } 
 }
 /*********** 
 MIPTO - Edicion de FUENTE de texto de cuerpo principical de la tarjeta
  ***********/
 .page-home__text p {
-  margin-top: 15px;
+  margin-top: 0px;
   margin-bottom: 0;
   color: #969696;
   font-size: 28px;
@@ -1351,7 +1355,7 @@ MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
 .page-home__page-title {
   margin: 0;
   padding-bottom: 15px;
-  color: #969696;
+  color: #000000e6;
   font: 40px SimianText;
   text-transform: uppercase;
 }
@@ -1401,6 +1405,7 @@ MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
   .page-portfolio__item__info .btn-lg {
     display: inline-block;
   }
+
 }
 .page-portfolio__item__title {
   margin: 0;
