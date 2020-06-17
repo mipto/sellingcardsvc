@@ -45,7 +45,7 @@ body {
   height: 100%;
   background-image: url('../../uploads/home/fondodorado.jpg');
   font: normal normal 18px/1.8em Raleway, sans-serif;
-  color: #ffff;
+  color: #000;
 }
 @media (max-width: 1132px), (max-height: 800px) {
   body {
@@ -97,12 +97,12 @@ a:focus {
   margin: 0;
   opacity: 0.55;
   filter: alpha(opacity=55);
-  color: #000
+  color: #ffff
 }
 .footer--bottom {
   display: none;
   padding: 30px;
-  background: #555c70;
+  background: #000;
   text-align: center;
 }
 .footer--bottom p {
@@ -113,7 +113,7 @@ a:focus {
 .sidebar {
   height: 100%;
   background: #555c70;
-  color:#000;
+  color:#ffff;
   padding-top: 75px;
 }
 .sidebar__site-name {
@@ -283,7 +283,7 @@ body {
 }
 .main-nav__item--active .main-nav__item-icon,
 .main-nav__item--active:hover .main-nav__item-icon {
-  color: #F19C1E;
+  color: #DAC15B;
 }
 .main-nav__item--active .main-nav__item-content,
 .main-nav__item--active:hover .main-nav__item-content {
@@ -329,7 +329,7 @@ body {
   position: absolute;
   bottom: 0;
   height: 230px;
-  background: #e4e5eb;
+  background: #a09c8f9c;
   z-index: 2;
   display: none;
   /* should be activated by js */
@@ -383,7 +383,7 @@ body {
   width: 60px;
   height: 60px;
   float: right;
-  background-color: #F19C1E;
+  background-color: #000;
   transition: all 500ms ease-in;
   position: relative;
   z-index: 21;
@@ -816,7 +816,7 @@ textarea {
   overflow: hidden;
 }
 .service-item:nth-child(odd) {
-  background: #000;
+  background: #ffff;
 }
 .service-item:nth-child(odd) .service-item__icon-wrap {
   margin-right: 0;
@@ -1258,12 +1258,18 @@ textarea {
 /*=== Home ===*/
 .page-home,
 .layout-body--home .layout {
-  background-color:#ffff;
+  background-image: url('../../uploads/home/fondoblanco2.jpg');
  }
 @media (min-width: 910px) {
   .layout-body--home .mCSB_scrollTools_vertical {
     margin-top: 0;
   }
+}
+@media (max-width: 910px) {
+  .page-home,
+  .layout-body--home .layout {
+    background-image: url('../../uploads/home/fondoblanco.jpg');
+   }}
 }
 .page-home {
   padding-top: 75px;
