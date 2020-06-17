@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Beyond Contact Center</title>
+		<link rel="icon" type="image/png" href="uploads/home/logoforma.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Savvy version 1.0.5 date: 2017-05-03 13:18:09 -->
+        <!-- stylesheets -->
+        <link rel="stylesheet" type="text/css" href="assets/csslib/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="assets/csslib/icomoon.css">
+        <link rel="stylesheet" type="text/css" href="assets/csslib/jquery.mCustomScrollbar.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-custom.css">
+        <link rel="stylesheet" type="text/css" id="savvyStyle" href="assets/css/main-skin-style5.css">
+        <!-- end stylesheets -->
+
+
+        <style>
+
+            @media (max-width: 600px) {
+                .col-sm-6 {
+                    padding-left:0px !important;
+                    padding-right:0px !important;
+                }
+            }
+
+            .container_photo {
+              width: 100%;
+              margin-left:0px !important;
+              margin-right:0px !important;
+            }
+            
+            .image {
+              display: block;
+              width: 100%;
+              height: auto;
+            }
+            
+            .overlay {
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              left: 15.5px;
+              right: 0;
+              height: 100%;
+              width: 90.5%;
+              opacity: 0;
+              transition: .5s ease;
+              background-color: #337ab7;
+            }
+            
+            .container_photo:hover .overlay {
+              opacity: 1;
+            }
+            
+            .text {
+              color: white;
+              font-size: 15px;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
+            }
+
+            .photomarintop{
+                margin-top:30px;
+            }
+
+        </style>
+    </head>
+    <body class="layout-body layout-body--services">
+        <!-- .layout -->
+        <div class="layout layout-width">
+            <div class="layout-anti-scroll layout-anti-scroll--active layout-width"></div>
+            <!-- .layout-header -->
+            <div class="layout-header layout-width">
+                <header>
+                    <div id="headerMenuSlidingElement" class="main-nav__sliding-element"></div>
+                    <ul class="main-nav">
+                        <li class="main-nav__item ">
+                            <a class="main-nav__item-link" href="index.html">
+                                <span class="main-nav__item-icon-wrapper">
+                                    <i class="main-nav__item-icon icon-home"></i>
+                                </span>
+                                <span class="main-nav__item-content">Inicio</span>
+                            </a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a class="main-nav__item-link" href="services.html">
+                                <span class="main-nav__item-icon-wrapper">
+                                    <i class="main-nav__item-icon icon-stats-bars2"></i>
+                                </span>
+                                <span class="main-nav__item-content">Servicios</span>
+                            </a>
+                        </li>
+                        <li class="main-nav__item main-nav__item--active">
+                            <a class="main-nav__item-link" href="portafolio.html">
+                                <span class="main-nav__item-icon-wrapper">
+                                    <i class="main-nav__item-icon icon-books"></i>
+                                </span>
+                                <span class="main-nav__item-content">Portafolio</span>
+                            </a>
+						</li>
+                        <li class="main-nav__item">
+                            <a class="main-nav__item-link" href="contact.html">
+                                <span class="main-nav__item-icon-wrapper">
+                                    <i class="main-nav__item-icon icon-info"></i>
+                                </span>
+                                <span class="main-nav__item-content">Nosotros</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="mobile-menu">
+                        <a class="mobile-menu__toggle" href="services.html#">
+                            <span class="mobile-menu__toggle__icon">
+                                <i class="fa fa-bars mobile-menu__toggle__icon__open"></i>
+                                <i class="fa fa-times mobile-menu__toggle__icon__close"></i>
+                            </span>
+                        </a>
+                    </div>
+                </header>
+            </div>
+            <!-- end .layout-header -->
+            <!-- .layout-sidebar -->
+            <div class="layout-sidebar layout-sidebar-width">
+                <!-- .sidebar -->
+                <div class="sidebar" style="background-image: linear-gradient(to bottom right, rgb(0, 128, 255), #FFCC99);">
+                    <div class="sidebar__site-name">Mipto Tech</div>
+                    <!-- .social-icons -->
+						<ul class="social-icons">
+							<li>
+                                <a href="https://wa.me/584142803614" target="_blank" class="social-icon--twitter">
+                                    <img src="assets/images/whatsapp2.png" alt="" width="45px">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:miptotech@gmail.com" target="_blank" class="social-icon--google-plus">
+                                    <img src="assets/images/gmail.png" alt="" width="55px">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/miptotech/" target="_blank" class="social-icon--linkedin">
+                                    <img src="assets/images/instagram.png" alt="" width="45px">
+                                    
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/mipto-tech" target="_blank" class="social-icon--linkedin">
+                                    <img src="assets/images/linkedin.png" alt="" width="45px">
+                                </a>
+                            </li>						
+						</ul>
+                    <!-- end .social-icons -->
+                    <footer class="footer">
+                        <p class="footer__copyright">&copy; Mipto, 2020. All rights reserved.</p>
+                    </footer>
+                </div>
+                <!-- end .sidebar -->
+            </div>
+            <!-- end .layout-sidebar -->
+            <div class="layout-container-main layout-container-width">
+                <!-- .layout-content -->
+                <div class="layout-content">
+                    <section style="margin-top:20px; margin-bottom: 30px;" class="page-services">
+                        <div class="container-fluid text-center">
+                            <br>
+                            <div class="row ">
+                                <div class="col-sm-6 photomarintop">
+                                    <div class="container_photo">
+                                        <a href="https://www.w3schools.com" target="_self">
+                                            <img src="assets/images/1page.jpg" alt="Avatar" class="image">
+                                            <div class="overlay">
+                                                <div class="text">Hello World</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                  </div>
+                                  <div class="col-sm-6 photomarintop">
+                                    <div class="container_photo">
+                                        <a href="https://www.w3schools.com" target="_self">
+                                        <img src="assets/images/2page.jpg" alt="Avatar" class="image">
+                                        <div class="overlay">
+                                          <div class="text">Hello World</div>
+                                        </div>
+                                        </a>
+                                    </div>
+                                  </div>
+                            </div>
+                              <div class="row ">
+                                <div class="col-sm-6 photomarintop">
+                                    <div class="container_photo">
+                                        <img src="assets/images/3page.jpg" alt="Avatar" class="image">
+                                        <div class="overlay">
+                                          <div class="text">Hello World</div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-sm-6 photomarintop">
+                                    <div class="container_photo">
+                                        <img src="assets/images/4page.jpg" alt="Avatar" class="image">
+                                        <div class="overlay">
+                                          <div class="text">Hello World</div>
+                                        </div>
+                                      </div>
+                                  </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6 photomarintop">
+                                    <div class="container_photo">
+                                        <img src="assets/images/5page.jpg" alt="Avatar" class="image">
+                                        <div class="overlay">
+                                          <div class="text">Hello World</div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-sm-6 photomarintop">
+                                    <div class="container_photo">
+                                        <img src="assets/images/6page.png" alt="Avatar" class="image">
+                                        <div class="overlay">
+                                          <div class="text">Hello World</div>
+                                        </div>
+                                      </div>
+                                  </div>
+                            </div>
+                          </div>
+                        
+                    </section>
+                </div>
+                <!-- end .layout-content -->
+                <div class="footer--bottom layout-row">
+                    <p class="footer__copyright">&copy; Mipto Tech, 2020. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+        <!-- end .layout -->
+        <!-- javascripts -->
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+        <script type="text/javascript" src="assets/jslib/jquery-1.11.2.js"></script>
+        <script type="text/javascript" src="assets/jslib/jquery.ba-bbq.js"></script>
+        <script type="text/javascript" src="assets/jslib/jquery.mCustomScrollbar.js"></script>
+        <script type="text/javascript" src="assets/jslib/bootstrap-transition.js"></script>
+        <script type="text/javascript" src="assets/jslib/bootstrap-collapse.js"></script>
+        <script type="text/javascript" src="assets/jslib/jquery.easypiechart.js"></script>
+        <script type="text/javascript" src="assets/jslib/jquery.raty.js"></script>
+        <script type="text/javascript" src="assets/jslib/jquery.sharrre.js"></script>
+        <script type="text/javascript" src="assets/jslib/jquery.hoverdir.js"></script>
+        <script type="text/javascript" src="assets/js/Template.js"></script>
+        <!-- end javascripts -->
+        <!-- .style-panel -->
+        <!-- end .style-panel -->
+        <!-- style panel assets -->
+        <script type="text/javascript" src="assets/jslib/jquery.cookie.js"></script>
+        <script type="text/javascript" src="assets/js/StylePanel.js"></script>
+        <!-- end style panel assets -->
+    </body>
+</html>
