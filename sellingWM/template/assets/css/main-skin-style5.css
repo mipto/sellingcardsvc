@@ -112,8 +112,8 @@ a:focus {
 /*=== Sidebar ===*/
 .sidebar {
   height: 100%;
-  background: #555c70;
-  color:#ffff;
+  background: #000;
+  color:#CDA434;
   padding-top: 75px;
 }
 .sidebar__site-name {
@@ -175,8 +175,8 @@ body {
   margin: 0;
   z-index: 1;
   overflow: hidden;
-  background: #00bdbd;
-  color: #ffffff;
+  background: #CDA434;
+  color: #000;
   font: normal normal 1.778em Novecento_wide_bold;
   text-transform: uppercase;
   line-height: 75px;
@@ -432,7 +432,7 @@ body {
   display: block;
   overflow: hidden;
   background: #f2f4f7;
-  color: #abaeba;
+  color: #000000ad;
   line-height: 65px;
   font-size: 20px;
   cursor: pointer;
@@ -444,13 +444,13 @@ body {
   float: right;
   line-height: inherit;
   font-size: 30px;
-  color: #dadce0;
+  color: #000000ad;
 }
 .accordion-title__state-icon.fa:before {
   content: "\f150";
 }
 .accordion-title.collapsed {
-  border-bottom: 1px solid #E9E9E9;
+  border-bottom: 1px solid #000000ad;
 }
 .accordion-title.collapsed .accordion-title__state-icon.fa:before {
   content: "\f151";
@@ -486,11 +486,11 @@ body {
   width: 115px;
   height: 115px;
   position: relative;
-  color: #00d4d4;
+  color: #CDA434;
   font-size: 36px;
   border-width: 3px;
   border-style: dashed;
-  border-color: #00d4d4;
+  border-color: #000;
   border-radius: 100%;
 }
 .achievement-item__icon i:before {
@@ -726,7 +726,7 @@ textarea {
 .list-style--check li:before {
   display: inline-block;
   margin-right: 10px;
-  color: #00d4d4;
+  color: #CDA434;
   font: normal normal normal 1.222em/1em FontAwesome;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
@@ -752,18 +752,18 @@ textarea {
   top: 50%;
 }
 .progress-bar__bar {
-  background-color: #e8e9ed;
+  background-color: #e8e9e;
   border-radius: 7px;
 }
 .progress-bar__value {
   height: 12px;
-  background-color: #616161;
+  background-color: #CDA434;
   border-radius: 7px;
 }
 .progress-bar__progress {
   width: 110px;
   float: right;
-  color: #c3c5c9;
+  color: #000;
   font: normal 800 36px Raleway, sans-serif;
 }
 /*=== end Progress bar ===*/
@@ -782,7 +782,7 @@ textarea {
   content: "\f005";
 }
 .star-on-png {
-  color: #00d4d4;
+  color: #CDA434;
 }
 .star-off-png {
   color: #cdcfd4;
@@ -807,7 +807,7 @@ textarea {
   font: normal normal 1em/30px Raleway, sans-serif;
 }
 .rating__value {
-  color: #cdcfd4;
+  color: #A6A7A9;
   font: normal 800 1.222em/30px Raleway, sans-serif;
 }
 /*=== end Rating ===*/
@@ -967,7 +967,7 @@ textarea {
   overflow: hidden;
 }
 .skill-section__title {
-  color: #585858;
+  color: #000;
   font: normal 800 1.111em Raleway, sans-serif;
   margin-top: 0;
 }
@@ -1154,7 +1154,7 @@ textarea {
 .timeline-item__title {
   margin: 0;
   margin-bottom: 20px;
-  color: #626262;
+  color: #000;
   font: normal 800 1.222em Raleway, sans-serif;
 }
 .timeline-item__title:after {
@@ -1163,18 +1163,18 @@ textarea {
   width: 35px;
   height: 0;
   margin-top: 15px;
-  border-bottom: 5px solid #00d4d4;
+  border-bottom: 5px solid #CDA434;
   border-radius: 3px;
 }
 .timeline-item__period {
   margin-bottom: 15px;
-  color: #d8d9db;
+  color: #A6A7A9;
   font: normal 800 1.222em Raleway, sans-serif;
 }
 .timeline-item__place {
   margin: 0;
   margin-bottom: 10px;
-  color: #626262;
+  color: #000;
   font: normal 800 1.111em Raleway, sans-serif;
 }
 .timeline-item__location {
