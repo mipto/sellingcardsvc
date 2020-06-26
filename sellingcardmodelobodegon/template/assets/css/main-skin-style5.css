@@ -20,7 +20,7 @@ MIPTO - Edicion de FONDO de tarjeta
  ***********/
 body {
   height: 100%;
-  background: #3c3c3c;
+  background-image: url("../../uploads/home/jjj.png");
   font: normal normal 18px/1.8em Raleway, sans-serif;
   color: #3f3f3f;
 }
@@ -79,7 +79,7 @@ a:focus {
 .footer--bottom {
   display: none;
   padding: 30px;
-  background: #555c70;
+  background-image: url("../../uploads/home/paredconbombillo.jpg");;
   text-align: center;
 }
 .footer--bottom p {
@@ -160,7 +160,7 @@ MIPTO - Edicion de FONDO de menu
   margin: 0;
   z-index: 1;
   overflow: hidden;
-  background: #00bdbd;
+  background: #000;
   color: #ffffff;
   font: normal normal 1.778em Novecento_wide_bold;
   text-transform: uppercase;
@@ -1284,7 +1284,7 @@ MIPTO - Edicion de FUENTE de texto de cuerpo principical de la tarjeta
 .page-home__text p {
   margin-top: 15px;
   margin-bottom: 0;
-  color: #ffffff;
+  color: #000;
 }
 /*********** 
 MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
@@ -1292,7 +1292,7 @@ MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
 .page-home__page-title {
   margin: 0;
   padding-bottom: 11px;
-  color: #ffffff;
+  color: #000;
   font: normal normal 2.125em/1.33em Novecento_wide_bold;
   text-transform: uppercase;
 }
