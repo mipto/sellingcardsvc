@@ -20,14 +20,13 @@ MIPTO - Edicion de FONDO de tarjeta
  ***********/
 body {
   height: 100%;
-  background-image: url("../../uploads/home/jjj.png");
+  background: #3c3c3c;
   font: normal normal 18px/1.8em Raleway, sans-serif;
   color: #3f3f3f;
-  background-size: cover;
 }
 @media (max-width: 1132px), (max-height: 800px) {
   body {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 a {
@@ -75,12 +74,12 @@ a:focus {
   margin: 0;
   opacity: 0.55;
   filter: alpha(opacity=55);
-  color: #000;
+  color: #ffffff;
 }
 .footer--bottom {
   display: none;
   padding: 30px;
-  background-image: url("../../uploads/home/paredconbombillo.jpg");;
+  background: #555c70;
   text-align: center;
 }
 .footer--bottom p {
@@ -93,8 +92,8 @@ MIPTO - Edicion de FONDO de sidebar
  ***********/
 .sidebar {
   height: 100%;
-  background-image:url('../../uploads/home/madera3.jpg');
-  color: #000;
+  background: #555c70;
+  color: #ffffff;
   padding-top: 75px;
 }
 /*********** 
@@ -116,11 +115,11 @@ MIPTO - Edicion de TITULO de sidebar
 /*=== end Sidebar ===*/
 /*=== Layout ===*/
 body {
-  padding-top: 5px;
+  padding-top: 20px;
 }
 @media (max-width: 910px) {
   body {
-    padding-top: 20;
+    padding-top: 0;
   }
 }
 .layout {
@@ -138,7 +137,7 @@ MIPTO - Edicion de FONDO de menu
   z-index: 3;
   height: 220px;
   top: 20px;
-  background-image: url('../../uploads/home/paredconbombillo.jpg');
+  background-color: #f0f1f5;
 }
 .layout-sidebar {
   position: fixed;
@@ -161,7 +160,7 @@ MIPTO - Edicion de FONDO de menu
   margin: 0;
   z-index: 1;
   overflow: hidden;
-  background: #000;
+  background: #00bdbd;
   color: #ffffff;
   font: normal normal 1.778em Novecento_wide_bold;
   text-transform: uppercase;
@@ -265,7 +264,7 @@ MIPTO - Edicion de FONDO de iconos de menu
 }
 .main-nav__item--active .main-nav__item-icon-wrapper:before,
 .main-nav__item--active:hover .main-nav__item-icon-wrapper:before {
-  background: #000;
+  background: #707a94;
   -webkit-transition: all 0.4s ease-in-out, background-color 1ms;
   -o-transition: all 0.4s ease-in-out, background-color 1ms;
   transition: all 0.4s ease-in-out, background-color 1ms;
@@ -275,11 +274,11 @@ MIPTO - Edicion de COLOR de iconos de menu
  ***********/
 .main-nav__item--active .main-nav__item-icon,
 .main-nav__item--active:hover .main-nav__item-icon {
-  color: #ffff;
+  color: #00d4d4;
 }
 .main-nav__item--active .main-nav__item-content,
 .main-nav__item--active:hover .main-nav__item-content {
-  color: #000;
+  color: #8d9099;
 }
 .main-nav__item-link {
   position: relative;
@@ -321,7 +320,7 @@ MIPTO - Edicion de COLOR de iconos de menu
   position: absolute;
   bottom: 0;
   height: 230px;
-  background-color: #866e4c8f;
+  background: #e4e5eb;
   z-index: 2;
   display: none;
   /* should be activated by js */
@@ -375,7 +374,7 @@ MIPTO - Edicion de COLOR de iconos de menu
   width: 60px;
   height: 60px;
   float: right;
-  background-color:#000000ad;
+  background-color: #00d4d4;
   transition: all 500ms ease-in;
   position: relative;
   z-index: 21;
@@ -1197,7 +1196,7 @@ MIPTO - Edicion de REDES SOCIALES
 MIPTO - Edicion de Texto de sidebar
  ***********/
 .widget {
-  margin-top: 0px;
+  margin-top: 20px;
 }
 .widget__list {
   margin: 0;
@@ -1207,7 +1206,7 @@ MIPTO - Edicion de Texto de sidebar
 .widget__list > li {
   opacity: 0.55;
   filter: alpha(opacity=55);
-  color: #000;
+  color: #ffffff;
   font: normal normal 1.2em/1.6em Raleway, sans-serif;
 }
 @media (max-width: 910px) {
@@ -1259,8 +1258,7 @@ MIPTO - Edicion de FONDO de cuerpo principical de la tarjeta
  ***********/
 .page-home,
 .layout-body--home .layout {
-  background-image: url('../../uploads/home/paredconbombillo.jpg');
-  object-fit: contain;
+  background: #00bdbd;
 }
 @media (min-width: 910px) {
   .layout-body--home .mCSB_scrollTools_vertical {
@@ -1285,7 +1283,7 @@ MIPTO - Edicion de FUENTE de texto de cuerpo principical de la tarjeta
 .page-home__text p {
   margin-top: 15px;
   margin-bottom: 0;
-  color: #000;
+  color: #ffffff;
 }
 /*********** 
 MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
@@ -1293,12 +1291,12 @@ MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
 .page-home__page-title {
   margin: 0;
   padding-bottom: 11px;
-  color: #000;
+  color: #ffffff;
   font: normal normal 2.125em/1.33em Novecento_wide_bold;
   text-transform: uppercase;
 }
 .page-home__sign {
-  margin-top: 0px;
+  margin-top: 49px;
 }
 .page-home__thumbnail {
   max-width: 100% !important;

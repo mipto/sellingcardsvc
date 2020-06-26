@@ -1,7 +1,4 @@
 @import url('http://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900');
-/*********** 
-MIPTO - Agregar fuentes
- ***********/
 /*=== Fonts ===*/
 @font-face {
   font-family: 'Novecento_wide_bold';
@@ -15,31 +12,27 @@ MIPTO - Agregar fuentes
 html {
   height: 100%;
 }
-/*********** 
-MIPTO - Edicion de FONDO de tarjeta
- ***********/
 body {
   height: 100%;
-  background-image: url("../../uploads/home/jjj.png");
+  background: #3c3c3c;
   font: normal normal 18px/1.8em Raleway, sans-serif;
   color: #3f3f3f;
-  background-size: cover;
 }
 @media (max-width: 1132px), (max-height: 800px) {
   body {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 a {
-  color: #8f99b3;
-  border-bottom: 1px dotted #8f99b3;
+  color: #a28fb2;
+  border-bottom: 1px dotted #a28fb2;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 a:hover {
-  color: #7a8399;
-  border-bottom-color: #7a8399;
+  color: #c5add9;
+  border-bottom-color: #c5add9;
   text-decoration: none;
 }
 a,
@@ -75,12 +68,12 @@ a:focus {
   margin: 0;
   opacity: 0.55;
   filter: alpha(opacity=55);
-  color: #000;
+  color: #ffffff;
 }
 .footer--bottom {
   display: none;
   padding: 30px;
-  background-image: url("../../uploads/home/paredconbombillo.jpg");;
+  background: #776b80;
   text-align: center;
 }
 .footer--bottom p {
@@ -88,18 +81,12 @@ a:focus {
 }
 /*=== end Footer ===*/
 /*=== Sidebar ===*/
-/*********** 
-MIPTO - Edicion de FONDO de sidebar
- ***********/
 .sidebar {
   height: 100%;
-  background-image:url('../../uploads/home/madera3.jpg');
-  color: #000;
+  background: #776b80;
+  color: #ffffff;
   padding-top: 75px;
 }
-/*********** 
-MIPTO - Edicion de TITULO de sidebar
- ***********/
 .sidebar__site-name {
   margin: 0;
   padding: 0;
@@ -116,11 +103,11 @@ MIPTO - Edicion de TITULO de sidebar
 /*=== end Sidebar ===*/
 /*=== Layout ===*/
 body {
-  padding-top: 5px;
+  padding-top: 20px;
 }
 @media (max-width: 910px) {
   body {
-    padding-top: 20;
+    padding-top: 0;
   }
 }
 .layout {
@@ -129,16 +116,13 @@ body {
   height: 100%;
   padding-top: 220px;
 }
-/*********** 
-MIPTO - Edicion de FONDO de menu
- ***********/
 .layout-header {
   position: fixed;
   background-color: red;
   z-index: 3;
   height: 220px;
   top: 20px;
-  background-image: url('../../uploads/home/paredconbombillo.jpg');
+  background-color: #f4f2f5;
 }
 .layout-sidebar {
   position: fixed;
@@ -161,7 +145,7 @@ MIPTO - Edicion de FONDO de menu
   margin: 0;
   z-index: 1;
   overflow: hidden;
-  background: #000;
+  background: #ffa640;
   color: #ffffff;
   font: normal normal 1.778em Novecento_wide_bold;
   text-transform: uppercase;
@@ -229,7 +213,7 @@ MIPTO - Edicion de FONDO de menu
 }
 .main-nav__item {
   display: table-cell;
-  background: #f0f1f5;
+  background: #f4f2f5;
   text-align: center;
   height: 100%;
   /* borders presentation */
@@ -251,35 +235,29 @@ MIPTO - Edicion de FONDO de menu
   left: -38px;
   width: 76px;
   height: 76px;
-  background: #abb3c7;
+  background: #b9b0bf;
 }
 .main-nav__item:hover .main-nav__item-icon,
 .main-nav__item--active .main-nav__item-icon {
   color: #ffffff;
 }
-/*********** 
-MIPTO - Edicion de FONDO de iconos de menu
- ***********/
 .main-nav__item:hover .main-nav__item-content {
-  color: #aeb2bd;
+  color: #aeabb3;
 }
 .main-nav__item--active .main-nav__item-icon-wrapper:before,
 .main-nav__item--active:hover .main-nav__item-icon-wrapper:before {
-  background: #000;
+  background: #928a99;
   -webkit-transition: all 0.4s ease-in-out, background-color 1ms;
   -o-transition: all 0.4s ease-in-out, background-color 1ms;
   transition: all 0.4s ease-in-out, background-color 1ms;
 }
-/*********** 
-MIPTO - Edicion de COLOR de iconos de menu
- ***********/
 .main-nav__item--active .main-nav__item-icon,
 .main-nav__item--active:hover .main-nav__item-icon {
-  color: #ffff;
+  color: #ffa640;
 }
 .main-nav__item--active .main-nav__item-content,
 .main-nav__item--active:hover .main-nav__item-content {
-  color: #000;
+  color: #969399;
 }
 .main-nav__item-link {
   position: relative;
@@ -290,7 +268,7 @@ MIPTO - Edicion de COLOR de iconos de menu
 }
 .main-nav__item-icon {
   font-size: 38px;
-  color: #c7cbd4;
+  color: #cdc9d1;
 }
 .main-nav__item-icon:before {
   display: block;
@@ -307,7 +285,7 @@ MIPTO - Edicion de COLOR de iconos de menu
   position: absolute;
   width: 100%;
   bottom: 30px;
-  color: #bec3cf;
+  color: #c2bfc7;
   font-family: Novecento_wide_bold;
   font-size: 24px;
   font-style: normal;
@@ -321,7 +299,7 @@ MIPTO - Edicion de COLOR de iconos de menu
   position: absolute;
   bottom: 0;
   height: 230px;
-  background-color: #866e4c8f;
+  background: #e9e6eb;
   z-index: 2;
   display: none;
   /* should be activated by js */
@@ -375,7 +353,7 @@ MIPTO - Edicion de COLOR de iconos de menu
   width: 60px;
   height: 60px;
   float: right;
-  background-color:#000000ad;
+  background-color: #ffa640;
   transition: all 500ms ease-in;
   position: relative;
   z-index: 21;
@@ -423,8 +401,8 @@ MIPTO - Edicion de COLOR de iconos de menu
   margin: 0;
   display: block;
   overflow: hidden;
-  background: #f2f4f7;
-  color: #abaeba;
+  background: #f6f5f7;
+  color: #b6afba;
   line-height: 65px;
   font-size: 20px;
   cursor: pointer;
@@ -436,7 +414,7 @@ MIPTO - Edicion de COLOR de iconos de menu
   float: right;
   line-height: inherit;
   font-size: 30px;
-  color: #dadce0;
+  color: #dddae0;
 }
 .accordion-title__state-icon.fa:before {
   content: "\f150";
@@ -478,11 +456,11 @@ MIPTO - Edicion de COLOR de iconos de menu
   width: 115px;
   height: 115px;
   position: relative;
-  color: #00d4d4;
+  color: #ffa640;
   font-size: 36px;
   border-width: 3px;
   border-style: dashed;
-  border-color: #00d4d4;
+  border-color: #ffa640;
   border-radius: 100%;
 }
 .achievement-item__icon i:before {
@@ -520,7 +498,7 @@ input[type="button"],
 input[type="submit"],
 input[type="reset"] {
   display: block;
-  border: 2px solid #00d4d4;
+  border: 2px solid #ffa640;
   background: transparent;
   border-radius: 70px;
   color: #3f3f3f;
@@ -578,8 +556,8 @@ input[type="reset"] {
 }
 .btn--style1:hover,
 .btn--style3:hover {
-  border-color: #00d4d4;
-  background: #00d4d4;
+  border-color: #ffa640;
+  background: #ffa640;
   color: #fff;
 }
 .btn:active,
@@ -592,7 +570,7 @@ input[type="reset"] {
 .donut-chart {
   margin-bottom: 10px;
   position: relative;
-  color: #00d4d4;
+  color: #ffa640;
 }
 .donut-chart-wrap {
   margin-right: 35px;
@@ -605,7 +583,7 @@ input[type="reset"] {
   width: 100%;
   position: absolute;
   text-align: center;
-  color: #c3c5c9;
+  color: #c4c1c7;
   font: normal 800 35px Raleway, sans-serif;
   line-height: 150px;
 }
@@ -617,7 +595,7 @@ input[type="reset"] {
   font: normal normal 16px Raleway, sans-serif;
 }
 .donut-chart__pallete-second-color {
-  color: #e8e9ed;
+  color: #ebe8ed;
   display: none;
 }
 /*=== end Donutchart ===*/
@@ -673,14 +651,14 @@ input[type="email"] {
   height: 50px;
   padding-left: 20px;
   padding-right: 20px;
-  border: 2px solid #dfe1e8;
+  border: 2px solid #e4e1e5;
   border-radius: 25px;
   -webkit-appearance: none;
 }
 textarea {
   margin-bottom: 20px;
   padding: 10px 20px;
-  border: 2px solid #dfe1e8;
+  border: 2px solid #e4e1e5;
   border-radius: 25px;
   -webkit-appearance: none;
 }
@@ -718,7 +696,7 @@ textarea {
 .list-style--check li:before {
   display: inline-block;
   margin-right: 10px;
-  color: #00d4d4;
+  color: #ffa640;
   font: normal normal normal 1.222em/1em FontAwesome;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
@@ -744,7 +722,7 @@ textarea {
   top: 50%;
 }
 .progress-bar__bar {
-  background-color: #e8e9ed;
+  background-color: #ebe8ed;
   border-radius: 7px;
 }
 .progress-bar__value {
@@ -755,7 +733,7 @@ textarea {
 .progress-bar__progress {
   width: 110px;
   float: right;
-  color: #c3c5c9;
+  color: #c4c1c7;
   font: normal 800 36px Raleway, sans-serif;
 }
 /*=== end Progress bar ===*/
@@ -774,10 +752,10 @@ textarea {
   content: "\f005";
 }
 .star-on-png {
-  color: #00d4d4;
+  color: #ffa640;
 }
 .star-off-png {
-  color: #cdcfd4;
+  color: #d0cdd4;
 }
 .rating {
   overflow: hidden;
@@ -799,7 +777,7 @@ textarea {
   font: normal normal 1em/30px Raleway, sans-serif;
 }
 .rating__value {
-  color: #cdcfd4;
+  color: #d0cdd4;
   font: normal 800 1.222em/30px Raleway, sans-serif;
 }
 /*=== end Rating ===*/
@@ -808,7 +786,7 @@ textarea {
   overflow: hidden;
 }
 .service-item:nth-child(odd) {
-  background: #f7f8fa;
+  background: #f6f5f7;
 }
 .service-item:nth-child(odd) .service-item__icon-wrap {
   margin-right: 0;
@@ -823,10 +801,10 @@ textarea {
   width: 140px;
   height: 140px;
   position: relative;
-  border: 2px solid #00d4d4;
+  border: 2px solid #ffa640;
   border-radius: 100%;
   font-size: 44px;
-  color: #00d4d4;
+  color: #ffa640;
 }
 .service-item__icon i:before {
   display: block;
@@ -881,9 +859,9 @@ textarea {
   float: right;
   position: relative;
   border-radius: 15px;
-  background-color: #edeff2;
+  background-color: #f0edf2;
   text-decoration: none;
-  color: #a1a3ab;
+  color: #9a959e;
   font: normal 700 18px Raleway, sans-serif;
 }
 .share-box__item .count:before {
@@ -896,7 +874,7 @@ textarea {
   content: " ";
   pointer-events: none;
   border-color: transparent;
-  border-right-color: #edeff2;
+  border-right-color: #f0edf2;
   border-width: 7px;
   margin-top: -7px;
 }
@@ -965,9 +943,6 @@ textarea {
 }
 /*=== end Skill ===*/
 /*=== Social icons ===*/
-/*********** 
-MIPTO - Edicion de REDES SOCIALES
- ***********/
 .social-icons {
   margin: 0;
   padding: 0;
@@ -1021,7 +996,7 @@ MIPTO - Edicion de REDES SOCIALES
   display: block;
   padding: 0;
   padding-left: 35px;
-  color: #ebecf0;
+  color: #eeebf0;
   font-size: 52px !important;
 }
 .testimonial__name {
@@ -1034,13 +1009,13 @@ MIPTO - Edicion de REDES SOCIALES
   width: 35px;
   height: 0;
   margin-bottom: 15px;
-  border-bottom: 5px solid #00d4d4;
+  border-bottom: 5px solid #ffa640;
   border-radius: 3px;
 }
 .testimonial__text {
   padding: 40px;
   position: relative;
-  border: 5px solid #f2f3f5;
+  border: 5px solid #f4f2f5;
 }
 .testimonial__text p {
   margin: 0 0 25px;
@@ -1058,7 +1033,7 @@ MIPTO - Edicion de REDES SOCIALES
 }
 .testimonial__with-image .testimonial__text:before {
   left: -33px;
-  border-right-color: #f2f3f5;
+  border-right-color: #f4f2f5;
 }
 .testimonial__with-image .testimonial__text:after {
   left: -26px;
@@ -1080,7 +1055,7 @@ MIPTO - Edicion de REDES SOCIALES
   left: auto;
 }
 .testimonial:nth-child(even).testimonial__with-image .testimonial__text:before {
-  border-left-color: #f2f3f5;
+  border-left-color: #f4f2f5;
   right: -33px;
 }
 .testimonial:nth-child(even).testimonial__with-image .testimonial__text:after {
@@ -1158,7 +1133,7 @@ MIPTO - Edicion de REDES SOCIALES
   width: 35px;
   height: 0;
   margin-top: 15px;
-  border-bottom: 5px solid #00d4d4;
+  border-bottom: 5px solid #ffa640;
   border-radius: 3px;
 }
 .timeline-item__period {
@@ -1193,11 +1168,8 @@ MIPTO - Edicion de REDES SOCIALES
 }
 /*=== end Timeline ===*/
 /*=== Widget ===*/
-/*********** 
-MIPTO - Edicion de Texto de sidebar
- ***********/
 .widget {
-  margin-top: 0px;
+  margin-top: 20px;
 }
 .widget__list {
   margin: 0;
@@ -1207,7 +1179,7 @@ MIPTO - Edicion de Texto de sidebar
 .widget__list > li {
   opacity: 0.55;
   filter: alpha(opacity=55);
-  color: #000;
+  color: #ffffff;
   font: normal normal 1.2em/1.6em Raleway, sans-serif;
 }
 @media (max-width: 910px) {
@@ -1226,7 +1198,7 @@ MIPTO - Edicion de Texto de sidebar
 /*=== Contact ===*/
 .google-map--contact {
   height: 276px;
-  color: #00d4d4;
+  color: #ffa640;
 }
 .google-map--contact a {
   border-bottom: none;
@@ -1248,19 +1220,15 @@ MIPTO - Edicion de Texto de sidebar
   margin-right: 10px;
   color: #ffffff;
   font-size: 30px;
-  background: #00d4d4;
+  background: #ffa640;
   border-radius: 100%;
   text-align: center;
 }
 /*=== end Contact ===*/
 /*=== Home ===*/
-/*********** 
-MIPTO - Edicion de FONDO de cuerpo principical de la tarjeta
- ***********/
 .page-home,
 .layout-body--home .layout {
-  background-image: url('../../uploads/home/paredconbombillo.jpg');
-  object-fit: contain;
+  background: #ffa640;
 }
 @media (min-width: 910px) {
   .layout-body--home .mCSB_scrollTools_vertical {
@@ -1279,26 +1247,20 @@ MIPTO - Edicion de FONDO de cuerpo principical de la tarjeta
     margin-top: 40px;
   }
 }
-/*********** 
-MIPTO - Edicion de FUENTE de texto de cuerpo principical de la tarjeta
- ***********/
 .page-home__text p {
   margin-top: 15px;
   margin-bottom: 0;
-  color: #000;
+  color: #2f2f2f;
 }
-/*********** 
-MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
- ***********/
 .page-home__page-title {
   margin: 0;
   padding-bottom: 11px;
-  color: #000;
+  color: #ffffff;
   font: normal normal 2.125em/1.33em Novecento_wide_bold;
   text-transform: uppercase;
 }
 .page-home__sign {
-  margin-top: 0px;
+  margin-top: 49px;
 }
 .page-home__thumbnail {
   max-width: 100% !important;
@@ -1332,7 +1294,7 @@ MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
   position: absolute;
   padding: 10% 80px 10% 60px;
   display: none;
-  background: rgba(126, 130, 140, 0.8);
+  background: rgba(138, 126, 140, 0.8);
   pointer-events: none;
   overflow: hidden;
 }
@@ -1380,7 +1342,7 @@ MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
 /*=== 404 ===*/
 .page-404,
 .layout-body--404 .layout {
-  background: #00bdbd;
+  background: #ffa640;
 }
 .page-404 {
   color: #ffffff;
@@ -1408,7 +1370,7 @@ MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
 /*=== About Author ===*/
 .about-author {
   overflow: hidden;
-  background: #f5f6f7;
+  background: #f6f5f7;
 }
 .about-author__title {
   margin: 0 0 25px 0;
@@ -1439,14 +1401,14 @@ MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
 .blog-post__article-info li {
   margin: 10px 20px 0 0;
   float: left;
-  color: #d7d9de;
+  color: #dbd7de;
   font: normal 800 18px Raleway, sans-serif;
 }
 .blog-post__article-info li i {
   margin-right: 5px;
 }
 .blog-post__article-info a {
-  color: #d7d9de;
+  color: #dbd7de;
   border-bottom: none;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -1457,10 +1419,10 @@ MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
 }
 .blog-post__article-info a:hover {
   text-decoration: none;
-  color: #d2d4d9 !important;
+  color: #d1cdd4 !important;
 }
 .blog-post:nth-child(even) .blog-post__article-info a {
-  color: #c6c8cc;
+  color: #d6d2d9;
 }
 .blog-post:nth-child(even) .blog-post__article-info a:hover {
   color: #c9c6cc;
@@ -1484,7 +1446,7 @@ MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
 /*=== end Blog-single ===*/
 /*=== Blog ===*/
 .blog-post:nth-child(even) {
-  background: #f5f6f7;
+  background: #f6f5f7;
 }
 .blog-post__image-wrap {
   display: block;
@@ -1506,7 +1468,7 @@ MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
   left: 0;
   opacity: 0;
   filter: alpha(opacity=0);
-  background-color: #7e828c;
+  background-color: #8a878c;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -1577,7 +1539,7 @@ MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
 .comment-item__info__date {
   float: left;
   margin: 8px 20px 7px 0;
-  color: #d5d8db;
+  color: #d8d5db;
   font: 700 1em Raleway, sans-serif;
 }
 .comment-item__info__reply {
@@ -1587,7 +1549,7 @@ MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
 .comment-item__content {
   margin-top: 15px;
   padding: 30px;
-  border: 5px solid #f2f4f5;
+  border: 5px solid #f4f2f5;
   font-size: 0.889em;
 }
 /*=== end Comment item ===*/
@@ -1626,7 +1588,7 @@ MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
 .comments__pagination a {
   display: inline-block;
   width: 45px;
-  border: 2px solid #d0d4d9;
+  border: 2px solid #d5d0d9;
   border-radius: 100%;
   color: #3f3f3f;
   font: 600 18px Raleway, sans-serif;
@@ -1636,17 +1598,17 @@ MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
   line-height: 41px;
 }
 .comments__pagination a:hover {
-  border-color: #00d4d4;
-  background: #00d4d4;
+  border-color: #ffa640;
+  background: #ffa640;
   color: #fff;
 }
 .comments__pagination__list__item-current {
-  background: #d0d4d9;
+  background: #d5d0d9;
   color: #fff !important;
 }
 .comments__pagination__list__item-current:hover {
-  border-color: #d0d4d9 !important;
-  background: #d0d4d9 !important;
+  border-color: #d5d0d9 !important;
+  background: #d5d0d9 !important;
   cursor: default;
 }
 /*=== end Comments ===*/
@@ -1674,7 +1636,7 @@ MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
   position: absolute;
   top: 50%;
   font-size: 28px !important;
-  color: #a8abb3;
+  color: #ada8b2;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -1684,7 +1646,7 @@ MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
   display: table-cell;
   width: 50%;
   vertical-align: middle;
-  border: 2px solid #e4e5eb;
+  border: 2px solid #e7e4eb;
   border-radius: 100px;
 }
 .post-navigation__item-left .post-navigation__item-content {
