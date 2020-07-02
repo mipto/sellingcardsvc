@@ -80,7 +80,7 @@ a:focus {
 .footer--bottom {
   display: none;
   padding: 30px;
-  background: #555c70;
+
   text-align: center;
 }
 .footer--bottom p {
@@ -93,9 +93,9 @@ MIPTO - Edicion de FONDO de sidebar
  ***********/
 .sidebar {
   height: 100%;
-  background-image: url(uploads/home/ag2.png);
+  background-image: url(../../uploads/home/ag2.png);
   color: #000;
-  background-size: 150px;
+  background-size: cover;
   padding-top: 10px;
 }
 /*********** 
@@ -154,15 +154,16 @@ MIPTO - Edicion de FONDO de menu
   float: right;
   overflow: hidden;
   position: relative;
-  background-color: #ffffff;
+  background-image: url(../../uploads/home/calle.png);
+  background-size: cover;
 }
 .layout-title {
   position: fixed;
   margin: 4px;
   z-index: 1;
   overflow: hidden;
-  background: #96ff23;
-  color: #000;
+  background: #258c9f;
+  color: #ffff;
   font: normal normal 1.778em Novecento_wide_bold;
   text-transform: uppercase;
   line-height: 75px;
@@ -265,7 +266,7 @@ MIPTO - Edicion de FONDO de iconos de menu
 }
 .main-nav__item--active .main-nav__item-icon-wrapper:before,
 .main-nav__item--active:hover .main-nav__item-icon-wrapper:before {
-  background: #000;
+  background: #ffff;
   -webkit-transition: all 0.4s ease-in-out, background-color 1ms;
   -o-transition: all 0.4s ease-in-out, background-color 1ms;
   transition: all 0.4s ease-in-out, background-color 1ms;
@@ -275,7 +276,7 @@ MIPTO - Edicion de COLOR de iconos de menu
  ***********/
 .main-nav__item--active .main-nav__item-icon,
 .main-nav__item--active:hover .main-nav__item-icon {
-  color: #96ff23;
+  color: #248c9e;
 }
 .main-nav__item--active .main-nav__item-content,
 .main-nav__item--active:hover .main-nav__item-content {
@@ -321,7 +322,7 @@ MIPTO - Edicion de COLOR de iconos de menu
   position: absolute;
   bottom: 0;
   height: 230px;
-  background: #96ff231f;
+  background: #23ffcc1f;
   z-index: 2;
   display: none;
   /* should be activated by js */
@@ -375,7 +376,7 @@ MIPTO - Edicion de COLOR de iconos de menu
   width: 60px;
   height: 60px;
   float: right;
-  background-color: #00d4d4;
+  background-color: #258c9f;
   transition: all 500ms ease-in;
   position: relative;
   z-index: 21;
@@ -520,10 +521,10 @@ input[type="button"],
 input[type="submit"],
 input[type="reset"] {
   display: block;
-  border: 2px solid  #96ff23 ;
+  border: 2px solid  #258c9f ;
   background: transparent;
   border-radius: 70px;
-  color: #000;
+  color: #363437;
   font: normal 700 0.889em Raleway, sans-serif;
 }
 .btn {
@@ -823,10 +824,10 @@ textarea {
   width: 140px;
   height: 140px;
   position: relative;
-  border: 2px solid #96ff23 ;
+  border: 2px solid #258c9f ;
   border-radius: 100%;
   font-size: 44px;
-  color: #000;
+  color: #363437;
 }
 .service-item__icon i:before {
   display: block;
@@ -1291,7 +1292,7 @@ MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
 .page-home__page-title {
   margin: 0;
   padding-bottom: 11px;
-  color: #000;
+  color: #363437;
   font: normal normal 2.125em/1.33em Novecento_wide_bold;
   text-transform: uppercase;
 }
