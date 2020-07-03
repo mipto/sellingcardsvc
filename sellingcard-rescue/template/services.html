@@ -12,6 +12,49 @@
         <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-custom.css">
         <link rel="stylesheet" type="text/css" id="savvyStyle" href="assets/css/main-skin-style5.css">
         <!-- end stylesheets -->
+    <style>
+        .margenderechoicono{
+            margin-right:50px;
+            width:140px;
+            height: 140px;
+            border: 2px solid #258c9f;
+            border-radius: 100%;
+            padding:2px;
+        }
+
+
+        .frame {
+            height: 140px;      /* equals max image height */
+            width: 140px;
+            border: 2px solid #258c9f;
+            white-space: nowrap;
+            border-radius: 100%;
+            text-align: center; 
+        }
+
+        .frametxt {
+            height: 140px;      /* equals max image height */
+            width: 100%;
+            white-space: nowrap;
+            text-align: center; 
+        }
+
+        .helper {
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+        }
+
+        img {
+            vertical-align: middle;
+            max-height: 80px;
+            max-width: 80px;
+        }
+
+        .topcenter{
+            margin-top: 60px;
+        }
+    </style>  
     </head>
     <body class="layout-body layout-body--services">
         <!-- .layout -->
@@ -27,7 +70,7 @@
                                 <span class="main-nav__item-icon-wrapper">
                                     <i class="main-nav__item-icon icon-home"></i>
                                 </span>
-                                <span class="main-nav__item-content">Home</span>
+                                <span class="main-nav__item-content">Nosotros</span>
                             </a>
                         </li>
                         <li class="main-nav__item main-nav__item--active">
@@ -35,7 +78,7 @@
                                 <span class="main-nav__item-icon-wrapper">
                                     <i class="main-nav__item-icon icon-stats-bars2"></i>
                                 </span>
-                                <span class="main-nav__item-content">Services</span>
+                                <span class="main-nav__item-content">Servicios</span>
                             </a>
                         </li>
                         <li class="main-nav__item">
@@ -43,12 +86,12 @@
                                 <span class="main-nav__item-icon-wrapper">
                                     <i class="main-nav__item-icon icon-envelop"></i>
                                 </span>
-                                <span class="main-nav__item-content">Contact</span>
+                                <span class="main-nav__item-content">Registro</span>
                             </a>
                         </li>
                     </ul>
                     <div class="mobile-menu">
-                        <a class="mobile-menu__toggle" href="services.html#">
+                        <a class="mobile-menu__toggle" href="contact.html#">
                             <span class="mobile-menu__toggle__icon">
                                 <i class="fa fa-bars mobile-menu__toggle__icon__open"></i>
                                 <i class="fa fa-times mobile-menu__toggle__icon__close"></i>
@@ -112,12 +155,14 @@
                             <div class="layout-container">
                                 <div class="service-item__icon-wrap">
                                     <div class="service-item__icon">
-                                        <i class="fa fa-html5"></i>
+                                        <div class="frame">
+                                            <span class="helper"></span>
+                                            <img src="uploads/home/ambulance.png" alt="" width="75px" />
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="service-item__content">
-                                    <h2 class="service-item__title">Traslado de pacientes en condiciones básicas y de cuidados intensivos</h2>
-                                    <p class="service-item__description">$5</p>
+                                <div class="service-item__content" >
+                                    <h2 class="service-item__title topcenter">Traslado de pacientes en condiciones básicas y de cuidados intensivos</h2>
                                 </div>
                                 <div class="clearfix"></div>
                             </div>
@@ -126,12 +171,14 @@
                             <div class="layout-container">
                                 <div class="service-item__icon-wrap">
                                     <div class="service-item__icon">
-                                        <i class="fa fa-gears"></i>
+                                        <div class="frame">
+                                            <span class="helper"></span>
+                                            <img src="uploads/home/nurse.png" alt="" width="70px" />
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="service-item__content">
-                                    <h2 class="service-item__title">Atención médica domiciliaria</h2>
-                                    <p class="service-item__description">$5</p>
+                                <div class="service-item__content" >
+                                    <h2 class="service-item__title topcenter">Atención Medica Domiciliaria</h2>
                                 </div>
                                 <div class="clearfix"></div>
                             </div>
@@ -140,12 +187,14 @@
                             <div class="layout-container">
                                 <div class="service-item__icon-wrap">
                                     <div class="service-item__icon">
-                                        <i class="fa fa-paint-brush"></i>
+                                        <div class="frame">
+                                            <span class="helper"></span>
+                                            <img src="uploads/home/diagnosis.png" alt="" width="70px" />
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="service-item__content">
-                                    <h2 class="service-item__title">Exámenes de Laboratorio a domicilio</h2>
-                                    <p class="service-item__description">$5</p>
+                                <div class="service-item__content" >
+                                    <h2 class="service-item__title topcenter">Exámenes de Laboratorio a Domicilio</h2>
                                 </div>
                                 <div class="clearfix"></div>
                             </div>
@@ -154,29 +203,35 @@
                             <div class="layout-container">
                                 <div class="service-item__icon-wrap">
                                     <div class="service-item__icon">
-                                        <i class="fa fa-search"></i>
+                                        <div class="frame">
+                                            <span class="helper"></span>
+                                            <img src="uploads/home/covid.png" alt="" width="70px" />
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="service-item__content">
-                                    <h2 class="service-item__title">Aplicación de tratamiento general y oncológico en el domicilio.</h2>
-                                    <p class="service-item__description">$5</p>
+                                <div class="service-item__content" >
+                                    <h2 class="service-item__title topcenter">Aplicación de Tratamiento General y Oncológico en el Domicilio</h2>
                                 </div>
                                 <div class="clearfix"></div>
                             </div>
                         </div>
-                        <div class="layout-row service-item">
-                            <div class="layout-container">
-                                <div class="service-item__icon-wrap">
-                                    <div class="service-item__icon">
-                                        <img src="/../uploads/home/paramedic.png" alt="" width="45px"></img>
+                    <div class="layout-row service-item">
+                        <div class="layout-container">
+                            <div class="service-item__icon-wrap">
+                                <div class="service-item__icon">
+                                    <div class="frame">
+                                        <span class="helper"></span>
+                                        <img src="uploads/home/paramedic.png" alt="" width="75px" />
                                     </div>
-                                <div class="service-item__content">
-                                    <h2 class="service-item__title">Guardia preventiva en eventos</h2>
-                                    <p class="service-item__description">$5</p>
                                 </div>
-                                <div class="clearfix"></div>
                             </div>
+                            <div class="service-item__content" >
+                                <h2 class="service-item__title topcenter">Guardia Preventiva en Eventos</h2>
+                            </div>
+                            <div class="clearfix"></div>
                         </div>
+                    </div>
+                        
                     </section>
                 </div>
                 <!-- end .layout-content -->
