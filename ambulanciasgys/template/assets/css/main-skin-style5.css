@@ -95,7 +95,7 @@ MIPTO - Edicion de FONDO de sidebar
   height: 100%;
   background-image: url(../../uploads/home/ag2.png);
   color: #000;
-  background-size: cover;
+  background-size: contain;
   padding-top: 10px;
 }
 /*********** 
@@ -974,6 +974,7 @@ MIPTO - Edicion de REDES SOCIALES
   padding: 0;
   margin-top: 30px;
   list-style: none;
+  margin-top: 500px;
 }
 .social-icons li {
   display: inline-block;
@@ -1097,6 +1098,9 @@ MIPTO - Edicion de REDES SOCIALES
   padding-right: 35px;
 }
 @media (max-width: 767px) {
+	.social-icons{
+		margin-top: 420px;
+	}
   .testimonial__images {
     padding: 0 !important;
     float: none !important;
@@ -1285,6 +1289,7 @@ MIPTO - Edicion de FUENTE de texto de cuerpo principical de la tarjeta
   margin-top: 15px;
   margin-bottom: 0;
   color: #000;
+  font-size: 26px;
 }
 /*********** 
 MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
