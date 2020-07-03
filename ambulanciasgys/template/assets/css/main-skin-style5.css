@@ -1098,6 +1098,10 @@ MIPTO - Edicion de REDES SOCIALES
   padding-right: 35px;
 }
 @media (max-width: 767px) {
+	.frame{
+		margin: auto;
+	}
+	
 	.social-icons{
 		margin-top: 420px;
 	}
