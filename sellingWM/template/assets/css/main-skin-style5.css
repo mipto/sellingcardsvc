@@ -119,7 +119,6 @@ a:focus {
 .sidebar__site-name {
   margin: 0;
   padding: 0;
-  opacity: 0.55;
   filter: alpha(opacity=55);
   font: normal normal 2.125em/1.33em Novecento_wide_bold;
   text-transform: uppercase;
