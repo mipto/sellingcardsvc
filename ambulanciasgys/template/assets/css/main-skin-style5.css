@@ -974,7 +974,9 @@ MIPTO - Edicion de REDES SOCIALES
   padding: 0;
   margin-top: 30px;
   list-style: none;
-  margin-top: 500px;
+  position: absolute;
+  bottom: 80px;
+ /* margin-top: 500px;*/
 }
 .social-icons li {
   display: inline-block;
@@ -1104,6 +1106,7 @@ MIPTO - Edicion de REDES SOCIALES
 	
 	.social-icons{
 		margin-top: 420px;
+		position: relative;
 	}
   .testimonial__images {
     padding: 0 !important;
@@ -1716,7 +1719,13 @@ MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
 .post-navigation__item-right .post-navigation__item-content:hover .post-navigation__icon {
   right: 20px;
 }
+
+
 @media (max-width: 768px) {
+   .sidebar{
+	   height: 500px;
+   }
+	
   .post-navigation {
     display: block;
   }

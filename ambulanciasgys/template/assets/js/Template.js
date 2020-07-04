@@ -3,8 +3,8 @@ var Template = {
 	googleMapConfig:{
 		// change map marker location here
 		markerLocation:{
-			lat:-34.397,
-			lng:150.644
+			lat:10.5009325,
+			lng:-66.7940701
 		},
 		// uncomment line below if you want use image or svg file as a marker
 		//markerIcon:{ url:'assets/svg/map-marker.svg' },
@@ -189,7 +189,7 @@ var Template = {
 			markerPositionCfg = jQuery.extend({lat:-34.397,lng:150.644}, mapCfg.markerLocation || {}),
 			markerPosition = new google.maps.LatLng(markerPositionCfg.lat, markerPositionCfg.lng),
 			map = new google.maps.Map(mapElement, {
-				zoom: mapCfg.zoom ? mapCfg.zoom : 8,
+				zoom: 14,
 				center: markerPosition,
 				mapTypeId: google.maps.MapTypeId.ROADMAP,
 				scrollwheel: false
@@ -197,7 +197,7 @@ var Template = {
 			markerColor = $(mapElement).css('color'),
 			iconCfg = mapCfg.markerIcon ? mapCfg.markerIcon : {
 				path: google.maps.SymbolPath.BACKWARD_CLOSED_ARROW, // google.maps.SymbolPath.CIRCLE,
-				fillColor: markerColor ? markerColor : '#ee0000',
+				fillColor: '#E31745',
 				fillOpacity: 1,
 				strokeWeight: 0,
 				scale: 12
