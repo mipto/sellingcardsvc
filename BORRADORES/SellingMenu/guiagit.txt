@@ -1,0 +1,12 @@
+GIA RAPIDA GIT
+git status - Ves los archivos modificados que no se han hecho push
+	Changes - Archivos existentes
+	Untracked - Archivos
+	
+git add . - Agregas archivos a subir
+
+git commit -m "Agregar guia de git"
+
+git pull
+
+git push
