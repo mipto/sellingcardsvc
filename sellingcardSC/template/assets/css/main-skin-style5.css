@@ -1314,7 +1314,16 @@ MIPTO - Edicion de FONDO de cuerpo principical de la tarjeta
   padding-top: 75px;
   padding-bottom: 75px;
 }
+
+.page-home__pagenuevo {
+  font-size: 25px;
+  color: black;
+  text-align: left;
+}
 @media (max-width: 991px) {
+  .firma{ 
+    font-size: 60px;
+  }
   .page-home {
     text-align: center;
   }
