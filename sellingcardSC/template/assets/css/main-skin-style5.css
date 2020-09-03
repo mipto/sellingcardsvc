@@ -1376,6 +1376,13 @@ MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
   max-height: 100% !important;
   border: 0px solid #ffffff;
 }
+
+.page-home__thumbnail2{
+  margin-top: 40px;
+  width: 70%;
+  opacity: 0.4;
+  display: none;
+}
 /*=== end Home ===*/
 /*=== Portfolio ===*/
 .page-portfolio__items-container {
@@ -1392,6 +1399,13 @@ MIPTO - Edicion de FUENTE de titulo de cuerpo principical de la tarjeta
   .page-portfolio__item-wrapper {
     float: none;
     width: auto;
+  }
+
+  .page-home__thumbnail2{
+    margin-top: 40px;
+    width: 70%;
+    opacity: 0.4;
+    display: block;
   }
 }
 .page-portfolio__image {
